@@ -7,12 +7,12 @@ responsive dashboard for monitoring and analyzing system alerts built with Next.
 ## Tech Stack   
 
 ### Core Technologies
-- **Next.js 14** - React framework for production
-- **TypeScript** - Static type checking
-- **Tailwind CSS** - Utility-first CSS framework
+- **Next.js 14** 
+- **TypeScript**
+- **Tailwind CSS**
 
 ### UI Components
-- **shadcn/ui** - Reusable component system
+- **shadcn/ui** - nice components
 - **Lucide React** - Icon library
 
 
@@ -79,31 +79,3 @@ npm run dev
 ```
 
 Visit `http://localhost:3000` to see the dashboard.
-
-## Features
-
-### Alert Selection
-- Searchable dropdown for alert selection
-- Auto-complete functionality
-- Clear selection option
-
-### Log Filtering
-- Filter by username
-- Filter by event name
-- Filter by source IP
-
-### Log Display
-- Color-coded event types
-- Formatted timestamps
-- Detailed event information
-- Responsive table layout
-
-## API Integration
-
-The dashboard integrates with an API endpoint for fetching log data:
-
-```typescript
-endpoint: 'https://njwinkshi5hyldkqq4srpuoxrm0weqer.lambda-url.us-east-1.on.aws'
-method: POST
-body: { alert_id: string }
-```
